@@ -1,0 +1,60 @@
+{
+  "development": {
+    "title": "Website title",
+    "description": "Website description",
+    "keywords": "Website keywords",
+    "firstname": "John",
+    "lastname": "Doe",
+    "gender": "Male",
+    "robots": "noindex, nofollow",
+    "log": {
+      "level": "info"
+    },
+    "protocol": "http://",
+    "baseurl": "http://localhost",
+    "devport": ":9000",
+    "domain": "localhost",
+    "googleanalytics": {
+      "appid": "googletest"
+    },
+    "mailconfig": {
+      "auth": {
+        "user": "your_gmail_adress@gmail.com",
+        "pass": "Your_gmail_password"
+      },
+      "adresses": {
+        "from": "'CV Website' <your_gmail_adress@gmail.com>",
+        "to": "your_gmail_adress@gmail.com"
+      }
+    }
+  },
+  "production": {
+    "title": "Website title",
+    "description": "Website description",
+    "keywords": "Website keywords",
+    "firstname": "John",
+    "lastname": "Doe",
+    "gender": "Male",
+    "robots": "index, follow",
+    "log": {
+      "level": "info"
+    },
+    "protocol": "https://",
+    "baseurl": "https://yourdomain",
+    "devport": "",
+    "domain": "yourdomain.io",
+    "googleanalytics": {
+      "appid": "google_app_id"
+    },
+    "mailconfig": {
+      "auth": {
+        "user": "your_gmail_adress@gmail.com",
+        "pass": "Your_gmail_password"
+      },
+      "adresses": {
+        "from": "'CV Website' <your_gmail_adress@gmail.com>",
+        "to": "your_gmail_adress@gmail.com"
+      }
+    }
+  }
+}

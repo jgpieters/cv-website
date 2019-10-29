@@ -1,0 +1,7 @@
+export const HOME = "home"
+export const PROJECTS = "projects"
+export const STACK = "stack"
+export const PICTURES = "pictures"
+export const FROMME = "fromme"
+export const TESTIMONIALS = "testimonials"
+export const CONTACT = "contact"

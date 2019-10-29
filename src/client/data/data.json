@@ -1,0 +1,227 @@
+{
+    "navigation": {
+        "logo": {
+            "white": "/assets/img/custom/logo/logo-white.png",
+            "black": "/assets/img/custom/logo/logo-black.png"
+        }
+    },
+    "home": {
+        "title": "Meet John Doe",
+        "text": "John Doe, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. \r\n\r\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. ",
+        "imgsrc": "/assets/img/custom/home/picture.jpg",
+        "button1": {
+            "text": "Contact John",
+            "link": {
+                "hash": "contact"
+            }
+        },
+        "button2": {
+            "text": "GitHub",
+            "link": {
+                "href": "https://github.com/xxxx"
+            }
+        }
+    },
+    "stack": {
+        "title": "Stack",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula nunc vitae risus euismod, eleifend dictum metus vehicula. Suspendisse euismod facilisis faucibus. Curabitur sed turpis faucibus elit rhoncus bibendum non ut nisl. Nullam efficitur sed massa nec cursus. Vestibulum eu nulla eu felis viverra vehicula sit amet eget nulla. Nunc nec eleifend nisl. Morbi tincidunt eu quam a laoreet.",
+        "list": [
+            {
+                "name": "Node.JS",
+                "type": "nodejs",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "https://nodejs.org/en/"
+                }
+            },
+            {
+                "name": "React",
+                "type": "react",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "https://reactjs.org/"
+                }
+            },
+            {
+                "name": "TypeScript",
+                "type": "typescript",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "http://www.typescriptlang.org/"
+                }
+            },
+            {
+                "name": "JavaScript",
+                "type": "javascript",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "http://www.typescriptlang.org/"
+                }
+            },
+            {
+                "name": "HTML5",
+                "type": "html5",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum ."
+            },
+            {
+                "name": "CSS3",
+                "type": "css3",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum ."
+            },
+            {
+                "name": "MySQL",
+                "type": "mysql",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "https://www.mysql.com/"
+                }
+            },
+            {
+                "name": "Oracle",
+                "type": "oracle",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "https://www.oracle.com/"
+                }
+            },
+            {
+                "name": "AWS",
+                "type": "aws",
+                "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum .",
+                "link": {
+                    "href": "https://https://aws.amazon.com/"
+                }
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "text": "Etiam ac mi sagittis, mattis est at, fermentum est. Integer eu odio et arcu lacinia elementum. Nullam a lacus nec augue porttitor egestas id vel sem. Pellentesque lobortis dolor sit amet est iaculis lobortis. Praesent venenatis imperdiet velit, tincidunt lacinia quam ultricies vitae. Ut at augue id orci faucibus elementum sed pretium quam. Maecenas dictum, lorem ultricies commodo interdum, leo magna dictum justo.",
+        "list": [
+            {
+                "company": "Company 1",
+                "description": "Etiam ac mi sagittis, mattis est at, fermentum est. Integer eu odio et arcu lacinia elementum. Nullam a lacus nec augue porttitor egestas id vel sem. Pellentesque lobortis dolor sit amet est iaculis lobortis. Praesent venenatis imperdiet velit, tincidunt lacinia quam ultricies vitae. Ut at augue id orci faucibus elementum sed pretium quam. Maecenas dictum, lorem ultricies commodo interdum, leo magna dictum justo.",
+                "url": "https://github.com",
+                "role": "Role",
+                "start": "Januray 1980",
+                "end": "December 1981",
+                "stack": [],
+                "imgsrc": "/assets/img/custom/projects/project1.png"
+            },
+            {
+                "company": "Company 2",
+                "description": "Etiam ac mi sagittis, mattis est at, fermentum est. Integer eu odio et arcu lacinia elementum. Nullam a lacus nec augue porttitor egestas id vel sem. Pellentesque lobortis dolor sit amet est iaculis lobortis. Praesent venenatis imperdiet velit, tincidunt lacinia quam ultricies vitae. Ut at augue id orci faucibus elementum sed pretium quam. Maecenas dictum, lorem ultricies commodo interdum, leo magna dictum justo.",
+                "url": "https://github.com",
+                "role": "Role",
+                "start": "Januray 1980",
+                "end": "December 1981",
+                "stack": [],
+                "imgsrc": "/assets/img/custom/projects/project2.png"
+            },
+            {
+                "company": "Company 3",
+                "description": "Etiam ac mi sagittis, mattis est at, fermentum est. Integer eu odio et arcu lacinia elementum. Nullam a lacus nec augue porttitor egestas id vel sem. Pellentesque lobortis dolor sit amet est iaculis lobortis. Praesent venenatis imperdiet velit, tincidunt lacinia quam ultricies vitae. Ut at augue id orci faucibus elementum sed pretium quam. Maecenas dictum, lorem ultricies commodo interdum, leo magna dictum justo.",
+                "url": "https://github.com",
+                "role": "Role",
+                "start": "Januray 1980",
+                "end": "December 1981",
+                "stack": [],
+                "imgsrc": "/assets/img/custom/projects/project3.png"
+            }
+        ]
+    },
+    "pictures": {
+        "title": "Pictures",
+        "list": [
+            {
+                "imgsrc": "/assets/img/custom/carousel/picture1.jpg"
+            },
+            {
+                "imgsrc": "/assets/img/custom/carousel/picture2.jpg"
+            },
+            {
+                "imgsrc": "/assets/img/custom/carousel/picture3.jpg"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "list": [
+            {
+                "text": "In non tellus in enim laoreet imperdiet sit amet ultrices neque. Mauris ut mauris tempus, gravida ex ut, lacinia orci. Vivamus tempus hendrerit quam, nec dictum dui ullamcorper eget.",
+                "author": "John",
+                "company": "Company",
+                "imgsrc": "/assets/img/custom/testimonials/picture1.jpg"
+            },
+            {
+                "text": "In non tellus in enim laoreet imperdiet sit amet ultrices neque. Mauris ut mauris tempus, gravida ex ut, lacinia orci. Vivamus tempus hendrerit quam, nec dictum dui ullamcorper eget.",
+                "author": "Jane",
+                "company": "Company",
+                "imgsrc": "/assets/img/custom/testimonials/picture2.jpg"
+            }
+        ]
+    },
+    "fromme": {
+        "title": "Hello, it's John",
+        "text": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum et efficitur nisi. Etiam lectus nisl, tincidunt ut gravida vel, molestie in risus. Phasellus at ligula eu sapien dignissim eleifend. In nec est finibus, suscipit purus et, ultrices odio. Nunc sodales nisl in hendrerit fermentum. Nam ac tortor vel metus eleifend interdum. Quisque fermentum eget neque mollis lobortis. Mauris mollis placerat efficitur. Praesent congue eleifend metus sit amet auctor. Praesent sodales elit ut neque pellentesque, vel fermentum magna posuere. Integer scelerisque vehicula quam et consectetur. Mauris est lorem, molestie at justo vel, vulputate vestibulum dolor. Suspendisse potenti.\r\nEtiam ac mi sagittis, mattis est at, fermentum est. Integer eu odio et arcu lacinia elementum. Nullam a lacus nec augue porttitor egestas id vel sem. Pellentesque lobortis dolor sit amet est iaculis lobortis. Praesent venenatis imperdiet velit, tincidunt lacinia quam ultricies vitae. Ut at augue id orci faucibus elementum sed pretium quam. Maecenas dictum, lorem ultricies commodo interdum, leo magna dictum justo, aliquet facilisis ipsum libero sed turpis. In hac habitasse platea dictumst. Proin porttitor dolor dignissim, finibus erat sed, vulputate elit. Sed ornare ex eu est iaculis, in ultricies tellus congue. Integer fermentum et sapien in venenatis. Vestibulum nec euismod tellus. Etiam pellentesque tincidunt urna eget porta. Duis sed urna eget nisl bibendum rhoncus. Donec interdum quis lacus eget semper.\r\nTellus in enim laoreet imperdiet sit amet ultrices neque. Mauris ut mauris tempus, gravida ex ut, lacinia orci. Vivamus tempus hendrerit quam, nec dictum dui ullamcorper eget. Mauris eu lacus ut felis maximus semper. Praesent non risus ut sem pharetra gravida. Curabitur nisl diam, maximus at erat in, lobortis ullamcorper est. Quisque blandit bibendum consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent sit amet mauris sapien. Nunc consequat a erat id rutrum. In congue arcu non tellus maximus, nec aliquet metus volutpat. Praesent eu urna egestas, egestas lectus nec, ornare lacus.",
+        "name": "John Doe",
+        "occupation": "Role",
+        "imgsrc": "/assets/img/custom/from/picture.jpg"
+    },
+    "footer": {
+        "text": {
+            "title": "About",
+            "description": "Maecenas diam ligula, pharetra id rhoncus vitae, tincidunt ut urna. Sed in mi sagittis velit auctor fermentum et efficitur nisi. \r\n\r\n Etiam lectus nisl, tincidunt ut gravida vel, molestie in risus. Phasellus at ligula eu sapien dignissim eleifend. In nec est finibus, suscipit purus et, ultrices odio. Nunc sodales nisl in hendrerit fermentum. Nam ac tortor vel metus eleifend interdum. Quisque fermentum eget neque mollis"
+        },
+        "navigation": [
+            {
+                "text": "home",
+                "link": {
+                    "hash": "home"
+                }
+            },
+            {
+                "text": "stack",
+                "link": {
+                    "hash": "stack"
+                }
+            },
+            {
+                "text": "pictures",
+                "link": {
+                    "hash": "pictures"
+                }
+            },
+            {
+                "text": "projects",
+                "link": {
+                    "hash": "projects"
+                }
+            },
+            {
+                "text": "testimonials",
+                "link": {
+                    "hash": "testimonials"
+                }
+            }
+        ],
+        "socialNetworks": [
+            {
+                "type": "linkedin",
+                "href": "https://www.linkedin.com/"
+            },
+            {
+                "type": "github",
+                "href": "https://github.com/"
+            },
+            {
+                "type": "npm",
+                "href": "https://www.npmjs.com/"
+            },
+            {
+                "type": "soundcloud",
+                "href": "https://soundcloud.com/"
+            }
+        ]
+    }
+}

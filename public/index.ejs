@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="language" content="en"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <% include favicon %>
+    <title><%- config.title -%>.</title>
+    <meta name="description" content="<%- config.description -%>">
+    <meta name="keywords" content="<%- config.keywords -%>">
+    <meta name="author" content="<%- config.firstname -%> <%- config.lastname -%>">
+    <meta property="og:title" content="<%- config.title -%>" />
+    <meta property="og:description" content="<%- config.description -%>" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="<%- config.firstname -%>">
+    <meta property="profile:last_name" content="<%- config.lastname -%>">
+    <meta property="profile:gender" content="<%- config.gender -%>">
+    <meta property="og:image" content="<%- config.baseurl -%>/assets/img/custom/share/share-picture.jpg" />
+    <meta property="og:url" content="<%- config.baseurl -%>" />
+</head>
+<body>
+    <div id="root"></div>
+    <script src="/assets/vendors~main.chunk.js"></script>
+    <script src="/assets/main.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150903464-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '<%- config.googleanalytics.app_id -%>');
+</script>
+</body>
+</html>
+
+
+
